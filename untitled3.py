@@ -70,6 +70,11 @@ print(f"Agent: {response}\n")
 response, history = run_agent("Check account ACC002", history)
 print(f"Agent: {response}\n")
 
+
+## Model Used
+
+llama3-groq-8b-8192-tool-use-preview via Groq API
+
 response, history = run_agent("Based on both results, what should I do next?", history)
 print(f"Agent: {response}\n")
 
